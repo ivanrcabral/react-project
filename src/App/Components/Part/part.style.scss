@@ -1,0 +1,37 @@
+@import './../../../default-styles.scss';
+
+.part-container {
+  display: flex;
+  overflow-x: auto;
+  margin: 25px 15px;
+}
+
+.features-title {
+  background-color: $color-light-gray;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 800;
+  padding: 10px 0;
+  border-radius: 5px 5px 0 0 ;
+}
+
+.features-title.danger {
+  background-color: $color-red;
+}
+.features-title.warning {
+  background-color: $color-yellow;
+}
+.features-title.success {
+  background-color: $color-green;
+}
+.features-container {
+  display: inline-block;
+  margin: 5px;
+}
+
+.features-data {
+  color: $color-black;
+  padding: 15px;
+  background-color: $color-light-gray;
+  border-radius: 5px;
+}

@@ -1,0 +1,37 @@
+@import './default-styles.scss';
+
+// GENERAL
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+th {
+  padding: 5px 10px;
+}
+
+td {
+  padding-bottom: 5px;
+}
+
+// COLORS
+.color-danger{
+  color: $color-red;
+}
+.color-warning {
+  color: $color-yellow;
+}
+.color-success {
+  color: $color-green;
+}
+
+// Header
+header {
+  background: $color-black;
+  color: $color-cian;
+  text-align: left;
+  padding: 25px 50px;
+  font-weight: 800;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
